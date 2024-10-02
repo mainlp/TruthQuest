@@ -1,0 +1,135 @@
+<user>
+A: C is a liar.
+B: D is a liar and C is a truth-teller.
+C: B is a truth-teller and D is a liar.
+D: B is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: liar
+D: liar
+</assistant>
+---
+<user>
+A: B is a truth-teller and D is a liar.
+B: A is a liar and D is a liar.
+C: I am a truth-teller.
+D: C is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: truth-teller
+</assistant>
+---
+<user>
+A: C is a truth-teller and D is a liar.
+B: A is a truth-teller and C is a liar.
+C: I am a truth-teller.
+D: A is a truth-teller and B is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: liar
+</assistant>
+---
+<user>
+A: B is a truth-teller and C is a liar.
+B: I am a truth-teller.
+C: B is a truth-teller and A is a truth-teller.
+D: B is a truth-teller and C is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: liar
+</assistant>
+---
+<user>
+A: D is a truth-teller and C is a liar.
+B: C is a truth-teller and D is a truth-teller.
+C: A is a truth-teller.
+D: B is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: liar
+</assistant>
+---
+<user>
+A: B is a liar.
+B: D is a truth-teller and C is a liar.
+C: I am a truth-teller.
+D: B is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: truth-teller
+D: truth-teller
+</assistant>
+---
+<user>
+A: C is a truth-teller.
+B: A is a truth-teller.
+C: D is a liar.
+D: B is a truth-teller and A is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: truth-teller
+B: truth-teller
+C: truth-teller
+D: liar
+</assistant>
+---
+<user>
+A: B is a liar and D is a liar.
+B: I am a truth-teller.
+C: B is a truth-teller.
+D: A is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: truth-teller
+C: truth-teller
+D: liar
+</assistant>

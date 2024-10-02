@@ -1,0 +1,14 @@
+### Instruction ###
+Assume that there exist only two types of people: truth-tellers and liars. truth-tellers always tell the truth, while liars always lie.
+You are given the statements from <num-characters> characters who say the following:
+
+<statements>
+
+Based on their statements, infer who is a truth-teller and who is a liar.
+
+First, explain your reasoning. End your answer by clearly stating the identity of each character in the following format:
+
+A: truth-teller/liar
+B: truth-teller/liar
+C: truth-teller/liar
+...

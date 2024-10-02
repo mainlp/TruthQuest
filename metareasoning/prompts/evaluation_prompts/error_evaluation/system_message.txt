@@ -1,0 +1,28 @@
+Your task is to classify whether a set of errors are present in the response of a large language model. You are given the initial PROBLEM STATEMENT and the model's RESPONSE.
+You must consider the following error types:
+
+- False statement reproduction (A statement of the problem description is repeated incorrectly.)
+- Assuming statements to be true (The possibility that a character's statement is a lie is not considered. The model does not question the premises' truth but assumes it as given.)
+- Misunderstanding the concept of truth and lies (The model does not understand that a truth-teller always tells the truth and a liar always lies. For instance, the model mistakenly assumes that truth-tellers lie, while liars tell the truth. Alternatively, the model assumes that truth-tellers can only talk about other truth-tellers and liars can only talk about liars.)
+- Misunderstanding logical operators (Logical operators and their implications are not properly understood. The model fails at inferring the logical implications of a statement. For instance, if character A's statement is a logical conjunction (e.g. B and C) and A is a liar, the model does not consider all possible implications of that lie (not B and C, B and not C, not B and not C).)
+- Unjustified conclusion (A conclusion about the identity of a characters such as “X is a truth-teller/liar” is presented without ANY justification. Note that this error does not address the logical validity of a justification, but checks whether a justification is present or not. As an example of this error, the model might simply state: "Since A is a truth-teller/liar..." without prior justification.)
+- Unfaithfulness (A conclusion is drawn that explicitly contradicts a conclusion previously inferred by the model, without the model reflecting on this contradiction.)
+
+For each error type, you must classify whether the error is present in the model's response (yes) or not (no). Start with a short justification for your decision (max. 1-2 sentences) and then clearly state whether the error type is present (yes) or not (no).
+Strictly adhere to the following output format:
+
+### False statement reproduction
+- Justification: ...
+- Label: yes/no
+
+### Assuming statements to be true
+- Justification: ...
+- Label: yes/no
+
+### Misunderstanding the concept of truth and lies
+- Justification: ...
+- Label: yes/no
+
+...
+
+You must strictly follow this format. Do not generate any additional text.

@@ -1,0 +1,10 @@
+model:
+  init:
+    torch_dtype: "bfloat16"
+  inference:
+    max_new_tokens: 128
+    do_sample: True
+tokenizer:
+  padding_side: "left"
+prompt:
+  system_message: True

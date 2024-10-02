@@ -1,0 +1,15 @@
+### Instruction ###
+You are given a piece of TEXT that reasons about the identity of a set of characters. You must extract the FINAL ANSWER from the TEXT by clearly stating the deduced identity of each character in the following format:
+
+### FINAL ANSWER:
+A: ...
+B: ...
+C: ...
+...
+
+You must strictly follow this format. Do not generate any additional text. You must only extract information that is present in the text provided. Do not add information that goes beyond the one contained in the text at hand.
+If "not a" is placed in front of the identity, flip the result of that character, e.g. "not a truth-teller" becomes "liar", while "not a liar" becomes "truth-teller".
+You should simplify results like "truth-teller/truth-teller" to "truth-teller" and "liar/liar" to "liar". However, do not simplify "truth-teller/liar", or "liar/truth-teller".
+
+### TEXT:
+<model-answer>

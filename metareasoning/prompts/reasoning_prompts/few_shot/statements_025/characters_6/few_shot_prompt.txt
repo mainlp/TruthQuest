@@ -1,0 +1,167 @@
+<user>
+A: E is a liar and B is a truth-teller.
+B: D is a truth-teller.
+C: If B is a truth-teller, then E is a truth-teller.
+D: If A is a truth-teller, then F is a truth-teller.
+E: A is a liar.
+F: E is a liar and A is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: truth-teller
+C: truth-teller
+D: truth-teller
+E: truth-teller
+F: liar
+</assistant>
+---
+<user>
+A: F is a truth-teller and E is a liar.
+B: F is a liar.
+C: B is a liar.
+D: A is a truth-teller and F is a truth-teller.
+E: If B is a liar, then D is a liar.
+F: E is a liar and C is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: truth-teller
+C: liar
+D: liar
+E: truth-teller
+F: liar
+</assistant>
+---
+<user>
+A: C is a liar.
+B: D is a liar and C is a truth-teller.
+C: E is a liar.
+D: If B is a liar, then F is a truth-teller.
+E: A is a truth-teller.
+F: B is a liar and A is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: liar
+D: truth-teller
+E: truth-teller
+F: truth-teller
+</assistant>
+---
+<user>
+A: B is a liar and C is a truth-teller.
+B: A is a truth-teller.
+C: D is a liar.
+D: A is a liar.
+E: If F is a truth-teller, then A is a liar.
+F: A is a liar and D is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: truth-teller
+E: truth-teller
+F: truth-teller
+</assistant>
+---
+<user>
+A: D is a liar and F is a truth-teller.
+B: A is a liar and E is a liar.
+C: If A is a truth-teller, then B is a liar.
+D: C is a liar.
+E: If D is a truth-teller, then C is a truth-teller.
+F: B is a liar.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: truth-teller
+D: liar
+E: truth-teller
+F: truth-teller
+</assistant>
+---
+<user>
+A: F is a truth-teller and D is a truth-teller.
+B: D is a liar.
+C: If F is a liar, then B is a truth-teller.
+D: B is a liar.
+E: C is a truth-teller.
+F: E is a liar and D is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: truth-teller
+C: truth-teller
+D: liar
+E: truth-teller
+F: liar
+</assistant>
+---
+<user>
+A: E is a truth-teller and F is a truth-teller.
+B: F is a truth-teller and A is a truth-teller.
+C: B is a truth-teller.
+D: If A is a truth-teller, then F is a liar.
+E: D is a truth-teller and C is a liar.
+F: C is a truth-teller and A is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: truth-teller
+E: truth-teller
+F: liar
+</assistant>
+---
+<user>
+A: F is a truth-teller.
+B: F is a liar and D is a truth-teller.
+C: If F is a liar, then A is a liar.
+D: E is a liar and A is a liar.
+E: A is a truth-teller.
+F: C is a truth-teller.
+</user>
+<assistant>
+REASONING:
+...
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: truth-teller
+D: liar
+E: truth-teller
+F: truth-teller
+</assistant>

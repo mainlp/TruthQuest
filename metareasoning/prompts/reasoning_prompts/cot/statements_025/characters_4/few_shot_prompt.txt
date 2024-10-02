@@ -1,0 +1,192 @@
+<user>
+A: D is a truth-teller and B is a truth-teller.
+B: D is a liar.
+C: A is a truth-teller.
+D: A is a liar.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller.
+If A is a truth-teller, then the statements of A must be true, so D and B are truth-tellers. 
+If B is a truth teller, the the statement of A must be true, so D is a liar.
+This directly contradicts A's statement, so A must be a liar.
+Therefore at least one of A's statements is a lie. Either D or B is a liar, or both of them are liars.
+If D is a liar, D's statement must be a lie, so A must be a truth-teller.
+This contradicts our conclusion above that A is a liar. So D must be a truth-teller and B must be a liar.
+Since A is a liar, the statement of C is a lie, so C is a liar.
+Therefore we can conclude:
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: truth-teller
+</assistant>
+---
+<user>
+A: D is a liar and B is a liar.
+B: A is a liar and D is a truth-teller.
+C: B is a truth-teller.
+D: B is a liar and A is a liar.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller.
+If A is a truth-teller, the statments of A must be true, so D is a liar and B is a liar.
+Since we assume A is a truth-teller and therefore D is a liar, the statement of B is a lie and B is a liar.
+This leads to no contradictions so far.
+Since we assume A is a truth-teller and therefore B is a liar, the statement of D is a lie and D is a liar.
+This leads to no contradictions so far.
+If B is a liar, the statement of C is a lie, so C is also a liar.
+Therefore we can conclude:
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: liar
+D: liar
+</assistant>
+---
+<user>
+A: D is a liar.
+B: C is a liar.
+C: A is a liar.
+D: C is a liar and A is a liar.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller. 
+If A is a truth-teller, A's statement must be true. So D is a liar.
+If A is a truth-teller, C's statement about A is false. So C is a liar.
+If C is a liar, B's statement about A is true. So B is a truth-teller.
+If C is a liar and A is a truth-teller, the satement of D is false. So D is a liar.
+Therefore we can conclude:
+
+CONCLUSION:
+A: truth-teller
+B: truth-teller
+C: liar
+D: liar
+</assistant>
+---
+<user>
+A: B is a truth-teller and C is a truth-teller.
+B: A is a liar and D is a liar.
+C: If D is a liar, then B is a liar.
+D: If A is a truth-teller, then B is a liar.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller.
+If A is a truth-teller, the satements of A must be true. So B is a truth-teller and C is a truth-teller.
+If B is a truth-teller, the statements of B must be true. So A must be a liar.
+This directly contradicts our assumption that A is a truth-teller.
+Therefore A can not be a truth-teller, A must be a liar.
+If A is a liar, then at least one of A's statements must be a lie. Either B is a liar or C is a liar or both of them are liars.
+If B is a liar, then at least one of B's statements must be a lie. Since A is a liar, D must be a truth-teller.
+This doesn't contradict the statement of C. So C is a truth-teller.
+Therefore we can conclude:
+
+CONCLUSION:
+A: liar
+B: liar
+C: truth-teller
+D: truth-teller
+</assistant>
+---
+<user>
+A: If D is a truth-teller, then B is a truth-teller.
+B: A is a truth-teller and D is a liar.
+C: D is a liar.
+D: If C is a liar, then A is a liar.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller. 
+If A is a truth-teller, the statement of A must be true. Therefore, either D is a liar and we know nothing about B based on the statement of A, or D is a truth-teller and B is a truth-teller.
+Assuming D is a truth-teller, then the satement of D must be true. Either C is a truth-teller or C is a liar and A is a liar.
+If D is a truth-teller, then the statement of C is a lie. Therefore C is a liar and A must be a liar.
+This contradicts the assumption that A is a truth-teller.
+Let's assume A is a liar and D is a truth-teller. The statment of A must be a lie.
+Since we assume D is a truth-teller, B must be a liar.
+Since we assume D is a truth-teller, the statment of C is a lie, so C is a liar.
+There is no contradictions, therefore we can conclude:
+
+CONCLUSION:
+A: liar
+B: liar
+C: liar
+D: truth-teller
+</assistant>
+---
+<user>
+A: If C is a liar, then B is a liar.
+B: C is a truth-teller and D is a liar.
+C: D is a liar.
+D: If B is a truth-teller, then C is a truth-teller.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller.
+If A is a truth-teller, the satement of A must be true. Either C is a truth-teller and we know nothing about B based on the statement of A, or C is a liar and B is a liar.
+Assuming C is a truth-teller, then the statement of C must be true. So D must be a liar.
+If D is a liar and C is a truth-teller, the statements of B are true, so B is a truth-teller.
+If B is a truth-teller and C is a truth-teller, then the statement of D is true. Therefore D is a truth-teller.
+This contradicts the conclusion above that D is a liar.
+Therefore A and C cannot both be truth-tellers.
+If A is a truth-teller, C must be a liar and therefore B must be a liar.
+If C is a liar, the statement of C must be a lie, so D is a truth-teller.
+This does not lead to any contradictions, therefore we can conclude:
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: liar
+D: truth-teller
+</assistant>
+---
+<user>
+A: If D is a liar, then C is a liar.
+B: A is a liar and C is a liar.
+C: D is a truth-teller.
+D: If B is a truth-teller, then A is a liar.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller.
+If A is a truth-teller, the statement of A must be true. Either D is a truth-teller and we know nothing about C based on the statement of A, or D is liar and C is a liar.
+Assuming D is a truth-teller, then the statement of D must be true. Either B is a liar or B is a truth-teller and A is a liar.
+Since we assume A is a truth-teller, there is only one possibility left. B must be a liar.
+If B is a liar, the statement of D is true. So D is a truth-teller.
+If B is a liar, the statement of B must be false. This leads to no contradictions.
+Therefore we can conclude:
+
+CONCLUSION:
+A: truth-teller
+B: liar
+C: truth-teller
+D: truth-teller
+</assistant>
+---
+<user>
+A: If B is a liar, then C is a liar.
+B: If A is a truth-teller, then C is a liar.
+C: D is a truth-teller and B is a liar.
+D: C is a liar and B is a truth-teller.
+</user>
+<assistant>
+REASONING:
+Let's assume A is a truth-teller.
+If A is a truth-teller, the statement of A must be true. Either B is a truth-teller and we know nothing about C based on the statement of A, or B is a liar and C is a liar.
+Let's assume B is A truth-teller. the statement of B must be true. Either A is a liar or A is a truth-teller and C is a liar.
+Since we assume A is a truth-teller, the only possibility left is that C is a liar.
+If C is a liar and B is a truth-teller, the statement of D is true, so D must be a truth-teller.
+This does not lead to any contradictions.
+Therefore we can conclude:
+
+CONCLUSION:
+A: truth-teller
+B: truth-teller
+C: liar
+D: truth-teller
+</assistant>
