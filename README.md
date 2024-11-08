@@ -86,10 +86,16 @@ This work is licensed under a [CC BY-SA 4.0 License](https://creativecommons.org
 
 If you find our work helpful, you can cite this paper as:
 ```
-@article{mondorf2024liar,
-  title={Liar, Liar, Logical Mire: A Benchmark for Suppositional Reasoning in Large Language Models},
-  author={Mondorf, Philipp and Plank, Barbara},
-  journal={arXiv preprint arXiv:2406.12546},
-  year={2024}
+@inproceedings{mondorf-plank-2024-liar,
+    title = "Liar, Liar, Logical Mire: A Benchmark for Suppositional Reasoning in Large Language Models",
+    author = "Mondorf, Philipp  and Plank, Barbara",
+    editor = "Al-Onaizan, Yaser  and Bansal, Mohit  and Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.404",
+    pages = "7114--7137",
 }
 ```
